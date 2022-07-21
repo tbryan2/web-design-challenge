@@ -19,7 +19,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -45,47 +45,25 @@
     </nav>
 
     <div class="container">
-        <div class="jumbotron">
-            <h1 class="display-4">Latitude vs. X</h1>
-            <p class="lead">This project relies on the OpenWeather API to gather data on over 500 cities globally. Using Matplotlib and pandas, we charted the relationships between various weather datapoints and the latitude of the cities. Some of these relationships revealed correlations, others did not. This webite provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-        </div>
-    </div>
-
-    <div class="container">
-    <h3 class="text-center">Visualizations</h3>
+        <h3 class="text-center">City Latitude vs. Maximum Temperature</h3>
         <div class="row">
-            <div class="col-md-3">
-                <div class="thumbnail">
-                    <a href="fig1.html"><img src="assets/images/Fig1.png" class="img-thumbnail"></a>
-                </div>
-            <div class="caption">
-                <h3>Max Temperature</h3>
+            <div class="col-md-6">
+                <img src="assets/images/Fig1.png" class="img-thumbnail">
             </div>
+            <div class="col-md-6">
+                <p>
+                    This is a plot of the cities' latitude vs. their maximum temperature. There's a clear correlation between distance from the equator and the temperature. The relationship is asymetrical skewing towards the north; in other words, the drop off of temperature as you get farther from the equator going north is greater than the drop off of temperature as you get farther from the equator going south.
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    The x-axis displays the latitude of the city. The y-axis displays the maximum temperature (in F) of the city.
+                </p>
             </div>
-            <div class="col-md-3">
-                <div class="thumbnail">
-                    <a href="fig2.html"><img src="assets/images/Fig2.png" class="img-thumbnail"></a>
-                </div>
-            <div class="caption">
-                <h3>Humidity</h3>
-            </div>
-            </div>
-            <div class="col-md-3">
-                <div class="thumbnail">
-                    <a href="fig3.html"><img src="assets/images/Fig3.png" class="img-thumbnail"></a>
-                </div>
-                <div class="caption">
-                    <h3>Cloudiness</h3>
-                </div>
-                </div>
-            <div class="col-md-3">
-                <div class="thumbnail">
-                    <a href="fig4.html"><img src="assets/images/Fig4.png" class="img-thumbnail"></a>
-                </div>
-                <div class="caption">
-                    <h3>Wind Speed</h3>
-                </div>
-                </div>
         </div>
     </div>
 
